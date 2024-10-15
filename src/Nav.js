@@ -6,11 +6,11 @@ const Nav = () => {
     return (
       <nav>
         <ul>
-          <li><Link to="/">الصفحة الرئيسية</Link></li>
-          <li><Link to="/booking">حجز الطاولة</Link></li>
+          <li><Link to="/">  الرئيسية</Link></li>
+          <li><Link to="/booking">حجز  </Link></li>
           <li><Link to="/specializations">العروض الخاصة</Link></li>
           <li><Link to="/customersSay">شهادات العملاء</Link></li>
-          <li><Link to="/casablanca">معلومات عن   Casablanca</Link></li>
+          <li><Link to="/casablanca">   Little Lemon    </Link></li>
         </ul>
       </nav>
     );

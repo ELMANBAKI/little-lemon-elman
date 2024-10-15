@@ -25,24 +25,24 @@ const reviews = [
   },
   {
     id: 4,
-    name: 'محمد',
-    image: '/images/p1 (5).jpg',
-    rating: 5,
-    review: 'أفضل مطعم جربته على الإطلاق. الجو رائع والطعام مميز.'
-  },
-  {
-    id: 5,
-    name: 'محمد',
-    image: '/images/p1 (6).jpg',
-    rating: 5,
-    review: 'أفضل مطعم جربته على الإطلاق. الجو رائع والطعام مميز.'
-  },
-  {
-    id: 6,
     name: 'فاطمة',
     image: '/images/p1 (4).jpg',
     rating: 4,
     review: 'مطعم رائع، لكن الأسعار مرتفعة قليلاً.'
+  },
+  {
+    id: 5,
+    name: 'ياسين',
+    image: '/images/p1 (5).jpg',
+    rating: 5,
+    review: 'الجو العام والخدمة في المطعم جعلتني أشعر وكأنني في البيت.'
+  },
+  {
+    id: 6,
+    name: 'ليلى',
+    image: '/images/p1 (6).jpg',
+    rating: 3,
+    review: 'الطعام لذيذ، لكنني لم أحب الموسيقى الصاخبة.'
   }
 ];
 

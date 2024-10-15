@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom'; // استيراد useNavigate
-import { fetchAvailableTimes, fetchExistingReservations } from './api';
+import { fetchAvailableTimes, fetchExistingReservations } from './Api';
 import './BookingForm.css'; // استيراد أنماط مخصصة
 
 const BookingForm = () => {

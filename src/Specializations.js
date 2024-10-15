@@ -2,43 +2,46 @@ import React from 'react';
 import './Specializations.css';
 
 const specials = [
-  { 
-    id: 1, 
-    title: 'عرض الغداء', 
-    description: 'خصم 20% على وجبات الغداء.', 
-    image: '/images/piza.jpg',
-  },
-  { 
-    id: 2, 
-    title: 'عرض البيتزا', 
-    description: 'خصم 15% على البيتزا.', 
-    image: '/images/catscomin.jpg' 
-  },
-  { 
-    id: 3, 
-    title: 'عرض الغداء', 
-    description: 'خصم 20% على وجبات الغداء.', 
-    image: '/images/minan.jpg',
-  },
-  { 
-    id: 4, 
-    title: 'عرض الغداء', 
-    description: 'خصم 20% على وجبات الغداء.', 
-    image: '/images/salad.jpg',
-  },
-  { 
-    id: 5, 
-    title: 'عرض الغداء', 
-    description: 'خصم 20% على وجبات الغداء.', 
-    image: '/images/robinstickel.jpg',
-  },
-  { 
-    id: 6, 
-    title: 'عرض المشروبات', 
-    description: 'احصل على مشروب مجاني مع كل وجبة.', 
-    image: '/images/foto.jpg' 
-  }
-];
+
+    { 
+      id: 1, 
+      title: 'خصم الغداء السريع', 
+      description: 'استمتع بخصم 20% على جميع وجبات الغداء المتنوعة.', 
+      image: '/images/piza.jpg',
+    },
+    { 
+      id: 2, 
+      title: 'عرض خاص على البيتزا', 
+      description: 'احصل على خصم 15% على جميع أنواع البيتزا الشهية.', 
+      image: '/images/catscomin.jpg',
+    },
+    { 
+      id: 3, 
+      title: 'غداء لا يُفوت', 
+      description: 'وفر 20% على قائمة الغداء المختارة كل يوم.', 
+      image: '/images/minan.jpg',
+    },
+    { 
+      id: 4, 
+      title: 'خصم السلطة الصحية', 
+      description: 'تناول سلطات طازجة مع خصم 20% على الوجبات الصحية.', 
+      image: '/images/salad.jpg',
+    },
+    { 
+      id: 5, 
+      title: 'غداء الأعمال', 
+      description: 'استمتع بخصم 20% على وجبات الغداء للأعمال.', 
+      image: '/images/robinstickel.jpg',
+    },
+    { 
+      id: 6, 
+      title: 'عرض المشروبات المنعش', 
+      description: 'احصل على مشروب مجاني مع كل وجبة رئيسية.', 
+      image: '/images/foto.jpg',
+    }
+  ];
+  
+
 
 const Specializations = () => {
   return (

@@ -22,9 +22,14 @@
 }
 
 .cta-content p {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+}
+.cta-content span{
+  color:  #e67e22;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .cta-button {
@@ -53,10 +58,7 @@
 .cta-content h2 {
   font-size: 1rem;
 }
-
-.cta-content p {
-  font-size: 0.5rem;
-}
+ 
 
 .cta-button {
    

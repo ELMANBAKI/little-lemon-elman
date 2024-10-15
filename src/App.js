@@ -6,6 +6,7 @@ import CustomersSay from './CustomersSay';
 import Casablanca from './Casablanca';
 import HomePage from './HomePage';
 import BookingPage from './BookingPage';
+import ContactUs from './ContactUs';
 import Footer from './Footer';
  
 
@@ -20,7 +21,9 @@ const App = () => {
         <Route path="/customersSay" element={<CustomersSay />} />
         <Route path="/casablanca" element={<Casablanca />} />
         <Route path="/booking" element={<BookingPage />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
+        
         <Footer />
     </Router>
     

@@ -1,0 +1,85 @@
+/* الأساسيات */
+.contact-us-section {
+  padding: 30px;
+  background-color: #ffffff; /* لون خلفية بسيط وأنيق */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف لرفع القسم عن الخلفية */
+  max-width: 900px;
+  margin: 40px auto; /* توسيط القسم */
+  transition: transform 0.3s ease-in-out; /* إضافة حركة عند تمرير الفأرة */
+}
+
+.contact-us-section:hover {
+  transform: translateY(-10px); /* رفع القسم عند التمرير */
+}
+
+/* العناوين */
+h3 {
+  margin-bottom: 20px;
+  color: #2c3e50; /* لون داكن لعناوين أكثر وضوحًا */
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif; /* خط عصري وجذاب */
+  border-bottom: 2px solid #3498db; /* إضافة خط سفلي ملون للعناوين */
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+/* القوائم */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #34495e; /* لون غامق للنص */
+  font-family: "Roboto", sans-serif; /* خط مميز للنصوص */
+  display: flex;
+  align-items: center;
+}
+ 
+
+/* روابط مواقع التواصل الاجتماعي */
+.social-media a {
+  color: #3498db; /* لون أزرق حديث */
+  text-decoration: none;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+  color: #e74c3c; /* تغيير اللون عند التمرير */
+}
+
+/* تصميم متجاوب للأجهزة المحمولة */
+@media only screen and (max-width: 768px) {
+  .contact-us-section {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+  }
+}
+
+/* تصميم للأجهزة الصغيرة جدًا (مثل الهواتف المحمولة الصغيرة) */
+@media only screen and (max-width: 480px) {
+  .contact-us-section {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  ul li {
+    font-size: 0.8rem;
+  }
+}

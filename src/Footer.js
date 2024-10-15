@@ -9,8 +9,8 @@ const Footer = () => {
         <p>&copy; 2024 Little Lemon. جميع الحقوق محفوظة.</p>
         <ul className="footer-links">
           <li><a href="/">الصفحة الرئيسية</a></li>
-          <li><a href="/about">من نحن</a></li>
-          <li><a href="/contact">اتصل بنا</a></li>
+          <li><a href="/casablanca">من نحن</a></li>
+          <li><a href="/contactUs">اتصل بنا</a></li>
           <li><a href="/privacy">سياسة الخصوصية</a></li>
         </ul>
       </div>
