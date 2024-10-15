@@ -1,0 +1,23 @@
+.booking-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .booking-page h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .booking-page p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+* {
+    
+    font-family:  "Lemonada", cursive;
+  }
+.chicago-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 80px;
+  gap: 20px;
+}
+
+.chicago-image {
+  flex: 1;
+  text-align: center;
+}
+
+.chicago-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chicago-info {
+  flex: 2;
+  padding: 20px;
+}
+
+.chicago-info h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.chicago-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.opening-hours,
+.restaurant-features {
+  list-style: none;
+  padding: 0;
+}
+
+.opening-hours li,
+.restaurant-features li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.restaurant-features li {
+  font-size: 1.2rem;
+}
+
+.restaurant-features li::before {
+  content: "✔️";
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .chicago-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chicago-info {
+    padding: 0;
+  }
+}
