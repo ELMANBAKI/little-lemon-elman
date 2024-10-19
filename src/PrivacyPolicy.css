@@ -1,0 +1,51 @@
+/* إعدادات التنسيق الأساسية لصفحة سياسة الخصوصية */
+.privacy-policy-container {
+  max-width: 100%;
+  padding: 10px;
+  background-color: #d6d323;
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #646b1d;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+p {
+  color: #000000;
+  line-height: 1.6;
+}
+
+.note {
+  color: #e74c3c;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* تنسيق متجاوب لجميع الأجهزة */
+@media (max-width: 768px) {
+  .privacy-policy-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}

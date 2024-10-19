@@ -1,44 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
-* {
-    
-    font-family:  "Lemonada", cursive;
-  }
-.chicago-section {
+.casablanca-section {
+  background-color: #d6d323;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 80px;
+  padding: 20px;
   gap: 20px;
 }
 
-.chicago-image {
+.casablanca-image {
   flex: 1;
   text-align: center;
 }
 
-.chicago-image img {
+.casablanca-image img {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.chicago-info {
+.casablanca-info {
   flex: 2;
   padding: 20px;
 }
 
-.chicago-info h2 {
+.casablanca-info h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #2c3e50;
+  color: #000000;
+  border-bottom: 4px solid #000000;
 }
 
-.chicago-info p {
+.casablanca-info h3 {
+  margin-bottom: 15px;
+  color: #000000;
+  border-bottom: 4px solid #000000;
+}
+
+.casablanca-info p {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 15px;
-  color: #34495e;
+  color: #000000;
 }
 
 .opening-hours,
@@ -49,6 +52,7 @@
 
 .opening-hours li,
 .restaurant-features li {
+  color: rgb(0, 85, 255);
   font-size: 1rem;
   margin-bottom: 10px;
   display: flex;
@@ -65,12 +69,12 @@
 }
 
 @media (max-width: 768px) {
-  .chicago-section {
+  .casablanca-section {
     flex-direction: column;
     text-align: center;
   }
 
-  .chicago-info {
+  .casablanca-info {
     padding: 0;
   }
 }

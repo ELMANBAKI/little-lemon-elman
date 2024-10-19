@@ -1,23 +1,52 @@
+/* ملف BookingPage.css */
 .booking-page {
-    text-align: center;
-    padding: 20px;
+  background-color: #d6d323;
+}
+
+.booking-page h1 {
+  color: #000000;
+  border-bottom: 4px solid #000000;
+  padding-bottom: 10px;
+}
+
+.booking-page p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.restaurant-image {
+  max-width: 10%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+/* لجعل النموذج والصورة متجاوبين */
+@media (min-width: 768px) {
+  .booking-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
+  .booking-page img {
+    width: 70%;
+    margin-bottom: 40px;
+  }
+}
+
+/* تحسين عرض العناصر على الأجهزة الكبيرة */
+@media (min-width: 1024px) {
+  .booking-page {
+    padding: 40px;
+  }
+
   .booking-page h1 {
-    font-size: 2.5em;
-    color: #333;
+    font-size: 2rem;
   }
-  
+
   .booking-page p {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 20px;
+    font-size: 1rem;
   }
-  
-  .restaurant-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin-bottom: 30px;
-  }
-  
+}

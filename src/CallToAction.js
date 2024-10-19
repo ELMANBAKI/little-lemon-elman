@@ -12,9 +12,12 @@ const CallToAction = () => {
     <div className="call-to-action">
       <div className="cta-content">
         <h2>عروضنا الخاصة</h2>
-        <p>اكتشف عروضنا الخاصة في مطعم <span>Little Lemon</span>  واستمتع بتجربة طعام فريدة تجمع بين النكهات المتوسطية الأصيلة والعصرية.</p>
+        <p>
+          اكتشف عروضنا الخاصة في مطعم <span>Little Lemon</span> واستمتع بتجربة
+          طعام فريدة تجمع بين النكهات المتوسطية الأصيلة والعصرية.
+        </p>
         <button className="cta-button" onClick={handleBookingClick}>
-        اكتشف الآن
+          اكتشف الآن
         </button>
       </div>
     </div>

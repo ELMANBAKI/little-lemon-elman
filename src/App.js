@@ -7,7 +7,9 @@ import Casablanca from './Casablanca';
 import HomePage from './HomePage';
 import BookingPage from './BookingPage';
 import ContactUs from './ContactUs';
+import PrivacyPolicy from './PrivacyPolicy';
 import Footer from './Footer';
+import './App.css';
  
 
 const App = () => {
@@ -22,6 +24,7 @@ const App = () => {
         <Route path="/casablanca" element={<Casablanca />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
         </Routes>
         
         <Footer />

@@ -10,7 +10,7 @@ const ContactUs = () => {
       <div className="contact-details">
         <h3>طرق التواصل:</h3>
         <p><strong>العنوان:</strong>   123 شارع المأكولات، كازابلانكا  .casablanca.</p>
-        <p><strong>الهاتف:</strong> +212 123 456 789</p>
+        <p><strong>الهاتف:</strong>    789 456 123  212 +</p>
         <p><strong>البريد الإلكتروني:</strong> info@restaurant.com</p>
         <p><strong>ساعات العمل:</strong></p>
         <ul>
@@ -20,9 +20,26 @@ const ContactUs = () => {
       </div>
 
       <div className="social-media">
-        <h3>تابعنا على وسائل التواصل الاجتماعي:</h3>
-        <p>ابقَ على اطلاع بأحدث عروضنا وفعالياتنا من خلال متابعة صفحاتنا على فيسبوك وإنستغرام.</p>
-      </div>
+  <h3>تابعنا على وسائل التواصل الاجتماعي:</h3>
+  <p>ابقَ على اطلاع بأحدث عروضنا وفعالياتنا من خلال متابعة صفحاتنا على:</p>
+  <div className="social-icons">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <img src='/images/fac.png' alt="Facebook" />
+    </a>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <img src='/images/you.png' alt="Facebook" />
+    </a>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+      <img src='/images/wha.png' alt="Facebook" />
+    </a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+      <img src="/images/inst.png" alt="Instagram" />
+    </a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+      <img src="/images/tw.png" alt="Twitter" />
+    </a>
+  </div>
+</div>
     </div>
   );
 };

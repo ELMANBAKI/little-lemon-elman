@@ -1,60 +1,69 @@
-* {
+/* تنسيق القائمة الأساسية */
+nav {
+  background-color: #646b1d; /* لون خلفية غامق */
+  box-shadow: 0 4px 8px rgba(11, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+ 
+}
+
+img {
+  width: 50px; /* حجم الشعار */
+  height: 50px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-left: auto 20px;
+}
+
+nav ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-nav {
-  background-color: rgb(191, 191, 0);
-  padding: 10px;
-}
-ul {
-  list-style-type: none;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: flex-start;
 }
-li {
-  margin: 0 10px;
+
+nav ul li {
+  margin-right: 20px;
 }
-a {
-  font-family: "Lemonada", cursive;
-  font-weight: bold;
-  color: darkslategray;
+
+nav ul li a {
+  color: #f4cb03; /* لون النص */
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 18px;
+
   padding: 10px 15px;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: background-color 0.3s ease;
 }
-a:hover {
-    background-color: tomato;
-    color:rgb(0, 0, 0);
+
+nav ul li a:hover {
+  background-color: #f4cb03; /* لون التفاعل عند التمرير */
+  color: #646b1d;
 }
+
+/* تنسيق متجاوب */
 @media (max-width: 768px) {
-    nav {
-        padding: 5px;
-    }
-    ul {
-      flex-direction: column;
-      text-align: center;
-    }
-    
-    li {
-      margin: 5px 0;
-    }
-  
-    a {
-      font-size: 1.1rem;
-      font-weight: bolder;
-      
-    }
+  nav {
+    padding: 5px 10px;
+    flex-direction: column; /* قائمة عمودية على الأجهزة الصغيرة */
+    align-items: flex-start;
   }
-  
-  @media (max-width: 480px) {
-    a {
-      font-size: 0.8rem;
-      font-weight: bold;
-      padding: 2px 8px;
-    }
+  nav ul {
+    flex-direction: column; /* تحويل قائمة الروابط إلى عمودية */
+    width: 100%;
   }
+  nav ul li {
+    margin: 10px 0; /* إضافة مسافات بين الروابط في الشاشات الصغيرة */
+    text-align: left;
+  }
+
+  nav ul li a {
+    font-size: 10px; /* تقليل حجم النص */
+  }
+  .logo img {
+    width: 50px; /* تصغير الشعار في الشاشات الصغيرة */
+  }
+}

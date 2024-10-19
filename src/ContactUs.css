@@ -1,26 +1,28 @@
 /* الأساسيات */
 .contact-us-section {
   padding: 30px;
-  background-color: #ffffff; /* لون خلفية بسيط وأنيق */
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* إضافة ظل خفيف لرفع القسم عن الخلفية */
-  max-width: 900px;
-  margin: 40px auto; /* توسيط القسم */
-  transition: transform 0.3s ease-in-out; /* إضافة حركة عند تمرير الفأرة */
+  background-color: #d6d323; /* لون خلفية بسيط وأنيق */
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
 }
 
-.contact-us-section:hover {
-  transform: translateY(-10px); /* رفع القسم عند التمرير */
+.contact-us-section h2 {
+  color: #000000;
+  border-bottom: 4px solid #646b1d; /* إضافة خط سفلي ملون للعناوين */
+}
+.contact-us-section p {
+  color: #000000;
 }
 
 /* العناوين */
 h3 {
   margin-bottom: 20px;
-  color: #2c3e50; /* لون داكن لعناوين أكثر وضوحًا */
+  color: #000000;
   font-size: 1.8rem;
   font-weight: bold;
-  font-family: "Poppins", sans-serif; /* خط عصري وجذاب */
-  border-bottom: 2px solid #3498db; /* إضافة خط سفلي ملون للعناوين */
+  border-bottom: 4px solid #646b1d; /* إضافة خط سفلي ملون للعناوين */
   padding-bottom: 10px;
   display: inline-block;
 }
@@ -34,12 +36,10 @@ ul {
 ul li {
   margin-bottom: 10px;
   font-size: 1rem;
-  color: #34495e; /* لون غامق للنص */
-  font-family: "Roboto", sans-serif; /* خط مميز للنصوص */
+  color: #0080ff; /* لون غامق للنص */
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
- 
 
 /* روابط مواقع التواصل الاجتماعي */
 .social-media a {
@@ -50,7 +50,28 @@ ul li {
 }
 
 .social-media a:hover {
-  color: #e74c3c; /* تغيير اللون عند التمرير */
+  background-color: #f4cb03; /* لون التفاعل عند التمرير */
+  color: #646b1d; /* تغيير اللون عند التمرير */
+}
+
+/* تنسيق قسم وسائل التواصل الاجتماعي */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a img {
+  width: 40px; /* حجم الأيقونة */
+  height: 40px;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* تأثيرات عند التمرير */
+}
+
+.social-icons a img:hover {
+  transform: scale(1.1); /* تكبير الأيقونة قليلاً عند التمرير */
+  opacity: 0.8;
 }
 
 /* تصميم متجاوب للأجهزة المحمولة */

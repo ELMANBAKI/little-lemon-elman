@@ -1,6 +1,11 @@
 .specializations {
+  background-color: #d6d323;
   text-align: center;
   padding: 20px;
+}
+
+.specializations h2 {
+  border-bottom: 4px solid #000000;
 }
 
 .specials-list {
@@ -8,16 +13,22 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding: 20px;
 }
 
 .special-item {
+  background-color: #dfe881;
   width: 300px;
-  border: 1px solid #ccc;
+  border: 5px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+}
+
+.special-item h3 {
+  border-bottom: 4px solid black;
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 .special-item:hover {
@@ -36,12 +47,12 @@
 
 .special-title {
   font-size: 1.5rem;
-  color: #010101;
+  color: #000000;
 }
 
 .special-description {
   font-size: 1rem;
-  color: #777;
+  color: #000000;
 }
 
 /* لجعل التصميم متجاوب */

@@ -1,7 +1,10 @@
-
 .customers-say {
+  background-color: #d6d323;
   text-align: center;
   padding: 20px;
+}
+.customers-say h2 {
+  border-bottom: 4px solid #000000;
 }
 
 .reviews-list {
@@ -12,8 +15,9 @@
 }
 
 .review-item {
+  background-color: #ffffff;
   width: 300px;
-  border: 1px solid #ddd;
+  border: 5px solid #788201;
   border-radius: 8px;
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -37,9 +41,8 @@
   color: #ffcc00;
 }
 
-.customer-review {
-  font-style: italic;
-  color: #555;
+.review-item h3 {
+  border-bottom: 4px solid #788201;
 }
 
 /* لجعل التصميم متجاوب */
